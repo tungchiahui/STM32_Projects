@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "shoot_task.h": "c",
+        "include.h": "c",
+        "robot_api.h": "c",
+        "limits": "c",
+        "memory": "c",
+        "atomic": "c",
+        "bit": "c",
+        "compare": "c",
+        "cstddef": "c",
+        "type_traits": "c",
+        "xmemory": "c",
+        "xstring": "c",
+        "xutility": "c",
+        "claw_task.h": "c",
+        "conveyer_task.h": "c",
+        "robot_behaviour_task.h": "c"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "helm_wheel.h": "c",
+        "include.h": "c"
+    }
+}

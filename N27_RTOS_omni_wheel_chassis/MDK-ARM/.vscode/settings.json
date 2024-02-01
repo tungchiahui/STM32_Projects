@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "include.h": "c",
+        "chassis_api.h": "c",
+        "chassis_task.h": "c",
+        "remote_control.h": "c"
+    }
+}
