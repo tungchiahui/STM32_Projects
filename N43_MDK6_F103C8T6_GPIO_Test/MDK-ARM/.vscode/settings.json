@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "main.h": "c",
+        "gpio_test.h": "c",
+        "stm32f1xx_hal.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}

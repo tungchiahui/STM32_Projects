@@ -1,0 +1,1083 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.39.0.0
+Copyright (C) 2023 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Chia-hui Tung
+Shandong University of Technology
+User-based license: Keil MDK Community
+Valid until: Jun 1 2033. Cached until: Feb 6 2024
+ 
+Tool Versions:
+Toolchain:       Keil MDK Community  Version: 5.39.0.0
+Toolchain Path:  C:\Program Files\Arm\KeilMDK\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.21
+Assembler:       Armasm.exe V6.21
+Linker/Locator:  ArmLink.exe V6.21
+Library Manager: ArmAr.exe V6.21
+Hex Converter:   FromElf.exe V6.21
+CPU DLL:         SARMCM3.DLL V5.39.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.2.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\UserFolder\XiaomiCloud\Work\Source\STM32_Projects\N1_F407ZGT6_GPIO_Test\MDK-ARM\Template_Linux.uvprojx
+Project File Date:  01/31/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.21', folder: 'C:\Program Files\Arm\KeilMDK\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Template_Linux'
+compiling stm32f1xx_hal_timebase_tim.c...
+assembling startup_stm32f103xb.s...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_msp.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+../Core/Src/freertos.c(21): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(62): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h(52): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(167): error: unknown type name '__forceinline'
+  167 | static portFORCE_INLINE void vPortSetBASEPRI( uint32_t ulBASEPRI )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(170): error: expected 'volatile', 'inline', 'goto', or '('
+  170 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(178): error: unknown type name '__forceinline'
+  178 | static portFORCE_INLINE void vPortRaiseBASEPRI( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(183): error: expected 'volatile', 'inline', 'goto', or '('
+  183 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(193): error: unknown type name '__forceinline'
+  193 | static portFORCE_INLINE void vPortClearBASEPRIFromISR( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(196): error: expected 'volatile', 'inline', 'goto', or '('
+  196 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(205): error: unknown type name '__forceinline'
+  205 | static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(205): error: expected ';' after top level declarator
+  205 | static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+      |                                 ^
+      |                                 ;
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(223): error: unknown type name '__forceinline'
+  223 | static portFORCE_INLINE BaseType_t xPortIsInsideInterrupt( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(223): error: expected ';' after top level declarator
+  223 | static portFORCE_INLINE BaseType_t xPortIsInsideInterrupt( void )
+      |                                   ^
+      |                                   ;
+10 errors generated.
+compiling freertos.c...
+compiling gpio.c...
+compiling stm32f1xx_it.c...
+../Core/Src/main.c(21): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS\cmsis_os.h(56): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(62): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h(52): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(167): error: unknown type name '__forceinline'
+  167 | static portFORCE_INLINE void vPortSetBASEPRI( uint32_t ulBASEPRI )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(170): error: expected 'volatile', 'inline', 'goto', or '('
+  170 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(178): error: unknown type name '__forceinline'
+  178 | static portFORCE_INLINE void vPortRaiseBASEPRI( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(183): error: expected 'volatile', 'inline', 'goto', or '('
+  183 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(193): error: unknown type name '__forceinline'
+  193 | static portFORCE_INLINE void vPortClearBASEPRIFromISR( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(196): error: expected 'volatile', 'inline', 'goto', or '('
+  196 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(205): error: unknown type name '__forceinline'
+  205 | static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(205): error: expected ';' after top level declarator
+  205 | static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+      |                                 ^
+      |                                 ;
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(223): error: unknown type name '__forceinline'
+  223 | static portFORCE_INLINE BaseType_t xPortIsInsideInterrupt( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(223): error: expected ';' after top level declarator
+  223 | static portFORCE_INLINE BaseType_t xPortIsInsideInterrupt( void )
+      |                                   ^
+      |                                   ;
+10 errors generated.
+compiling main.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_rcc.c...
+../Middlewares/Third_Party/FreeRTOS/Source/croutine.c(28): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(62): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h(52): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(167): error: unknown type name '__forceinline'
+  167 | static portFORCE_INLINE void vPortSetBASEPRI( uint32_t ulBASEPRI )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(170): error: expected 'volatile', 'inline', 'goto', or '('
+  170 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(178): error: unknown type name '__forceinline'
+  178 | static portFORCE_INLINE void vPortRaiseBASEPRI( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(183): error: expected 'volatile', 'inline', 'goto', or '('
+  183 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(193): error: unknown type name '__forceinline'
+  193 | static portFORCE_INLINE void vPortClearBASEPRIFromISR( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(196): error: expected 'volatile', 'inline', 'goto', or '('
+  196 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(205): error: unknown type name '__forceinline'
+  205 | static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(205): error: expected ';' after top level declarator
+  205 | static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+      |                                 ^
+      |                                 ;
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(223): error: unknown type name '__forceinline'
+  223 | static portFORCE_INLINE BaseType_t xPortIsInsideInterrupt( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(223): error: expected ';' after top level declarator
+  223 | static portFORCE_INLINE BaseType_t xPortIsInsideInterrupt( void )
+      |                                   ^
+      |                                   ;
+10 errors generated.
+compiling croutine.c...
+../Middlewares/Third_Party/FreeRTOS/Source/list.c(30): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(62): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h(52): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(167): error: unknown type name '__forceinline'
+  167 | static portFORCE_INLINE void vPortSetBASEPRI( uint32_t ulBASEPRI )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(170): error: expected 'volatile', 'inline', 'goto', or '('
+  170 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(178): error: unknown type name '__forceinline'
+  178 | static portFORCE_INLINE void vPortRaiseBASEPRI( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(183): error: expected 'volatile', 'inline', 'goto', or '('
+  183 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(193): error: unknown type name '__forceinline'
+  193 | static portFORCE_INLINE void vPortClearBASEPRIFromISR( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(196): error: expected 'volatile', 'inline', 'goto', or '('
+  196 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(205): error: unknown type name '__forceinline'
+  205 | static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(205): error: expected ';' after top level declarator
+  205 | static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+      |                                 ^
+      |                                 ;
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(223): error: unknown type name '__forceinline'
+  223 | static portFORCE_INLINE BaseType_t xPortIsInsideInterrupt( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(223): error: expected ';' after top level declarator
+  223 | static portFORCE_INLINE BaseType_t xPortIsInsideInterrupt( void )
+      |                                   ^
+      |                                   ;
+10 errors generated.
+compiling list.c...
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_hal_exti.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_flash_ex.c...
+../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c(37): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(62): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h(52): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(167): error: unknown type name '__forceinline'
+  167 | static portFORCE_INLINE void vPortSetBASEPRI( uint32_t ulBASEPRI )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(170): error: expected 'volatile', 'inline', 'goto', or '('
+  170 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(178): error: unknown type name '__forceinline'
+  178 | static portFORCE_INLINE void vPortRaiseBASEPRI( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(183): error: expected 'volatile', 'inline', 'goto', or '('
+  183 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(193): error: unknown type name '__forceinline'
+  193 | static portFORCE_INLINE void vPortClearBASEPRIFromISR( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(196): error: expected 'volatile', 'inline', 'goto', or '('
+  196 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(205): error: unknown type name '__forceinline'
+  205 | static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(205): error: expected ';' after top level declarator
+  205 | static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+      |                                 ^
+      |                                 ;
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(223): error: unknown type name '__forceinline'
+  223 | static portFORCE_INLINE BaseType_t xPortIsInsideInterrupt( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(223): error: expected ';' after top level declarator
+  223 | static portFORCE_INLINE BaseType_t xPortIsInsideInterrupt( void )
+      |                                   ^
+      |                                   ;
+../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c(240): error: call to undeclared function '__dsb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  240 |                         portYIELD_WITHIN_API();
+      |                         ^
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(722): note: expanded from macro 'portYIELD_WITHIN_API'
+  722 |         #define portYIELD_WITHIN_API portYIELD
+      |                                      ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(90): note: expanded from macro 'portYIELD'
+   90 |         __dsb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c(240): error: call to undeclared function '__isb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(722): note: expanded from macro 'portYIELD_WITHIN_API'
+  722 |         #define portYIELD_WITHIN_API portYIELD
+      |                                      ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(91): note: expanded from macro 'portYIELD'
+   91 |         __isb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c(388): error: call to undeclared function '__dsb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  388 |                         portYIELD_WITHIN_API();
+      |                         ^
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(722): note: expanded from macro 'portYIELD_WITHIN_API'
+  722 |         #define portYIELD_WITHIN_API portYIELD
+      |                                      ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(90): note: expanded from macro 'portYIELD'
+   90 |         __dsb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c(388): error: call to undeclared function '__isb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(722): note: expanded from macro 'portYIELD_WITHIN_API'
+  722 |         #define portYIELD_WITHIN_API portYIELD
+      |                                      ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(91): note: expanded from macro 'portYIELD'
+   91 |         __isb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c(494): error: call to undeclared function 'ulPortRaiseBASEPRI'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  494 |         uxSavedInterruptStatus = portSET_INTERRUPT_MASK_FROM_ISR();
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(109): note: expanded from macro 'portSET_INTERRUPT_MASK_FROM_ISR'
+  109 | #define portSET_INTERRUPT_MASK_FROM_ISR()               ulPortRaiseBASEPRI()
+      |                                                         ^
+../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c(494): note: did you mean 'vPortRaiseBASEPRI'?
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(109): note: expanded from macro 'portSET_INTERRUPT_MASK_FROM_ISR'
+  109 | #define portSET_INTERRUPT_MASK_FROM_ISR()               ulPortRaiseBASEPRI()
+      |                                                         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(178): note: 'vPortRaiseBASEPRI' declared here
+  178 | static portFORCE_INLINE void vPortRaiseBASEPRI( void )
+      |                              ^
+15 errors generated.
+compiling event_groups.c...
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c(36): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(62): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h(52): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(167): error: unknown type name '__forceinline'
+  167 | static portFORCE_INLINE void vPortSetBASEPRI( uint32_t ulBASEPRI )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(170): error: expected 'volatile', 'inline', 'goto', or '('
+  170 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(178): error: unknown type name '__forceinline'
+  178 | static portFORCE_INLINE void vPortRaiseBASEPRI( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(183): error: expected 'volatile', 'inline', 'goto', or '('
+  183 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(193): error: unknown type name '__forceinline'
+  193 | static portFORCE_INLINE void vPortClearBASEPRIFromISR( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(196): error: expected 'volatile', 'inline', 'goto', or '('
+  196 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(205): error: unknown type name '__forceinline'
+  205 | static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(205): error: expected ';' after top level declarator
+  205 | static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+      |                                 ^
+      |                                 ;
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(223): error: unknown type name '__forceinline'
+  223 | static portFORCE_INLINE BaseType_t xPortIsInsideInterrupt( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(223): error: expected ';' after top level declarator
+  223 | static portFORCE_INLINE BaseType_t xPortIsInsideInterrupt( void )
+      |                                   ^
+      |                                   ;
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c(273): error: call to undeclared function '__dsb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  273 |                                         queueYIELD_IF_USING_PREEMPTION();
+      |                                         ^
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c(80): note: expanded from macro 'queueYIELD_IF_USING_PREEMPTION'
+   80 |         #define queueYIELD_IF_USING_PREEMPTION() portYIELD_WITHIN_API()
+      |                                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(722): note: expanded from macro 'portYIELD_WITHIN_API'
+  722 |         #define portYIELD_WITHIN_API portYIELD
+      |                                      ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(90): note: expanded from macro 'portYIELD'
+   90 |         __dsb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c(273): error: call to undeclared function '__isb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c(80): note: expanded from macro 'queueYIELD_IF_USING_PREEMPTION'
+   80 |         #define queueYIELD_IF_USING_PREEMPTION() portYIELD_WITHIN_API()
+      |                                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(722): note: expanded from macro 'portYIELD_WITHIN_API'
+  722 |         #define portYIELD_WITHIN_API portYIELD
+      |                                      ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(91): note: expanded from macro 'portYIELD'
+   91 |         __isb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c(818): error: call to undeclared function '__dsb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  818 |                                                         queueYIELD_IF_USING_PREEMPTION();
+      |                                                         ^
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c(80): note: expanded from macro 'queueYIELD_IF_USING_PREEMPTION'
+   80 |         #define queueYIELD_IF_USING_PREEMPTION() portYIELD_WITHIN_API()
+      |                                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(722): note: expanded from macro 'portYIELD_WITHIN_API'
+  722 |         #define portYIELD_WITHIN_API portYIELD
+      |                                      ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(90): note: expanded from macro 'portYIELD'
+   90 |         __dsb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c(818): error: call to undeclared function '__isb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c(80): note: expanded from macro 'queueYIELD_IF_USING_PREEMPTION'
+   80 |         #define queueYIELD_IF_USING_PREEMPTION() portYIELD_WITHIN_API()
+      |                                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(722): note: expanded from macro 'portYIELD_WITHIN_API'
+  722 |         #define portYIELD_WITHIN_API portYIELD
+      |                                      ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(91): note: expanded from macro 'portYIELD'
+   91 |         __isb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c(831): error: call to undeclared function '__dsb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  831 |                                                 queueYIELD_IF_USING_PREEMPTION();
+      |                                                 ^
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c(80): note: expanded from macro 'queueYIELD_IF_USING_PREEMPTION'
+   80 |         #define queueYIELD_IF_USING_PREEMPTION() portYIELD_WITHIN_API()
+      |                                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(722): note: expanded from macro 'portYIELD_WITHIN_API'
+  722 |         #define portYIELD_WITHIN_API portYIELD
+      |                                      ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(90): note: expanded from macro 'portYIELD'
+   90 |         __dsb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c(831): error: call to undeclared function '__isb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c(80): note: expanded from macro 'queueYIELD_IF_USING_PREEMPTION'
+   80 |         #define queueYIELD_IF_USING_PREEMPTION() portYIELD_WITHIN_API()
+      |                                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(722): note: expanded from macro 'portYIELD_WITHIN_API'
+  722 |         #define portYIELD_WITHIN_API portYIELD
+      |                                      ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(91): note: expanded from macro 'portYIELD'
+   91 |         __isb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c(900): error: call to undeclared function '__dsb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  900 |                                         portYIELD_WITHIN_API();
+      |                                         ^
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(722): note: expanded from macro 'portYIELD_WITHIN_API'
+  722 |         #define portYIELD_WITHIN_API portYIELD
+      |                                      ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(90): note: expanded from macro 'portYIELD'
+   90 |         __dsb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c(900): error: call to undeclared function '__isb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(722): note: expanded from macro 'portYIELD_WITHIN_API'
+  722 |         #define portYIELD_WITHIN_API portYIELD
+      |                                      ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(91): note: expanded from macro 'portYIELD'
+   91 |         __isb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c(954): error: call to undeclared function 'ulPortRaiseBASEPRI'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  954 |         uxSavedInterruptStatus = portSET_INTERRUPT_MASK_FROM_ISR();
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(109): note: expanded from macro 'portSET_INTERRUPT_MASK_FROM_ISR'
+  109 | #define portSET_INTERRUPT_MASK_FROM_ISR()               ulPortRaiseBASEPRI()
+      |                                                         ^
+../Middlewares/Third_Party/FreeRTOS/Source/queue.c(954): note: did you mean 'vPortRaiseBASEPRI'?
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(109): note: expanded from macro 'portSET_INTERRUPT_MASK_FROM_ISR'
+  109 | #define portSET_INTERRUPT_MASK_FROM_ISR()               ulPortRaiseBASEPRI()
+      |                                                         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(178): note: 'vPortRaiseBASEPRI' declared here
+  178 | static portFORCE_INLINE void vPortRaiseBASEPRI( void )
+      |                              ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling queue.c...
+../Middlewares/Third_Party/FreeRTOS/Source/timers.c(36): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(62): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h(52): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(167): error: unknown type name '__forceinline'
+  167 | static portFORCE_INLINE void vPortSetBASEPRI( uint32_t ulBASEPRI )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(170): error: expected 'volatile', 'inline', 'goto', or '('
+  170 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(178): error: unknown type name '__forceinline'
+  178 | static portFORCE_INLINE void vPortRaiseBASEPRI( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(183): error: expected 'volatile', 'inline', 'goto', or '('
+  183 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(193): error: unknown type name '__forceinline'
+  193 | static portFORCE_INLINE void vPortClearBASEPRIFromISR( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(196): error: expected 'volatile', 'inline', 'goto', or '('
+  196 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(205): error: unknown type name '__forceinline'
+  205 | static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(205): error: expected ';' after top level declarator
+  205 | static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+      |                                 ^
+      |                                 ;
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(223): error: unknown type name '__forceinline'
+  223 | static portFORCE_INLINE BaseType_t xPortIsInsideInterrupt( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(223): error: expected ';' after top level declarator
+  223 | static portFORCE_INLINE BaseType_t xPortIsInsideInterrupt( void )
+      |                                   ^
+      |                                   ;
+10 errors generated.
+compiling timers.c...
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.c(33): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(62): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h(52): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(167): error: unknown type name '__forceinline'
+  167 | static portFORCE_INLINE void vPortSetBASEPRI( uint32_t ulBASEPRI )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(170): error: expected 'volatile', 'inline', 'goto', or '('
+  170 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(178): error: unknown type name '__forceinline'
+  178 | static portFORCE_INLINE void vPortRaiseBASEPRI( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(183): error: expected 'volatile', 'inline', 'goto', or '('
+  183 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(193): error: unknown type name '__forceinline'
+  193 | static portFORCE_INLINE void vPortClearBASEPRIFromISR( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(196): error: expected 'volatile', 'inline', 'goto', or '('
+  196 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(205): error: unknown type name '__forceinline'
+  205 | static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(205): error: expected ';' after top level declarator
+  205 | static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+      |                                 ^
+      |                                 ;
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(223): error: unknown type name '__forceinline'
+  223 | static portFORCE_INLINE BaseType_t xPortIsInsideInterrupt( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(223): error: expected ';' after top level declarator
+  223 | static portFORCE_INLINE BaseType_t xPortIsInsideInterrupt( void )
+      |                                   ^
+      |                                   ;
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.c(208): error: expected '(' after 'asm'
+  208 | __asm void vPortSVCHandler( void )
+      |       ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.c(208): error: expected ';' after top-level asm block
+  208 | __asm void vPortSVCHandler( void )
+      |      ^
+      |      ;
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.c(210): error: use of undeclared identifier 'PRESERVE8'
+  210 |         PRESERVE8
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.c(225): error: expected '(' after 'asm'
+  225 | __asm void prvStartFirstTask( void )
+      |       ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.c(225): error: expected ';' after top-level asm block
+  225 | __asm void prvStartFirstTask( void )
+      |      ^
+      |      ;
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.c(227): error: use of undeclared identifier 'PRESERVE8'
+  227 |         PRESERVE8
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.c(374): error: expected '(' after 'asm'
+  374 | __asm void xPortPendSVHandler( void )
+      |       ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.c(374): error: expected ';' after top-level asm block
+  374 | __asm void xPortPendSVHandler( void )
+      |      ^
+      |      ;
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.c(376): error: type specifier missing, defaults to 'int'; ISO C99 and later do not support implicit int [-Wimplicit-int]
+  376 |         extern uxCriticalNesting;
+      |         ~~~~~~ ^
+      |         int
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling port.c...
+compiling stm32f1xx_hal_tim_ex.c...
+../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c(43): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(62): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h(52): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(167): error: unknown type name '__forceinline'
+  167 | static portFORCE_INLINE void vPortSetBASEPRI( uint32_t ulBASEPRI )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(170): error: expected 'volatile', 'inline', 'goto', or '('
+  170 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(178): error: unknown type name '__forceinline'
+  178 | static portFORCE_INLINE void vPortRaiseBASEPRI( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(183): error: expected 'volatile', 'inline', 'goto', or '('
+  183 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(193): error: unknown type name '__forceinline'
+  193 | static portFORCE_INLINE void vPortClearBASEPRIFromISR( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(196): error: expected 'volatile', 'inline', 'goto', or '('
+  196 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(205): error: unknown type name '__forceinline'
+  205 | static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(205): error: expected ';' after top level declarator
+  205 | static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+      |                                 ^
+      |                                 ;
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(223): error: unknown type name '__forceinline'
+  223 | static portFORCE_INLINE BaseType_t xPortIsInsideInterrupt( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(223): error: expected ';' after top level declarator
+  223 | static portFORCE_INLINE BaseType_t xPortIsInsideInterrupt( void )
+      |                                   ^
+      |                                   ;
+10 errors generated.
+compiling heap_4.c...
+../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c(38): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(62): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h(52): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(167): error: unknown type name '__forceinline'
+  167 | static portFORCE_INLINE void vPortSetBASEPRI( uint32_t ulBASEPRI )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(170): error: expected 'volatile', 'inline', 'goto', or '('
+  170 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(178): error: unknown type name '__forceinline'
+  178 | static portFORCE_INLINE void vPortRaiseBASEPRI( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(183): error: expected 'volatile', 'inline', 'goto', or '('
+  183 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(193): error: unknown type name '__forceinline'
+  193 | static portFORCE_INLINE void vPortClearBASEPRIFromISR( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(196): error: expected 'volatile', 'inline', 'goto', or '('
+  196 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(205): error: unknown type name '__forceinline'
+  205 | static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(205): error: expected ';' after top level declarator
+  205 | static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+      |                                 ^
+      |                                 ;
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(223): error: unknown type name '__forceinline'
+  223 | static portFORCE_INLINE BaseType_t xPortIsInsideInterrupt( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(223): error: expected ';' after top level declarator
+  223 | static portFORCE_INLINE BaseType_t xPortIsInsideInterrupt( void )
+      |                                   ^
+      |                                   ;
+../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c(621): error: call to undeclared function 'ulPortRaiseBASEPRI'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  621 |                         sbSEND_COMPLETE_FROM_ISR( pxStreamBuffer, pxHigherPriorityTaskWoken );
+      |                         ^
+../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c(115): note: expanded from macro 'sbSEND_COMPLETE_FROM_ISR'
+  115 |                 uxSavedInterruptStatus = ( UBaseType_t ) portSET_INTERRUPT_MASK_FROM_ISR();             \
+      |                                                          ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(109): note: expanded from macro 'portSET_INTERRUPT_MASK_FROM_ISR'
+  109 | #define portSET_INTERRUPT_MASK_FROM_ISR()               ulPortRaiseBASEPRI()
+      |                                                         ^
+../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c(621): note: did you mean 'vPortRaiseBASEPRI'?
+../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c(115): note: expanded from macro 'sbSEND_COMPLETE_FROM_ISR'
+  115 |                 uxSavedInterruptStatus = ( UBaseType_t ) portSET_INTERRUPT_MASK_FROM_ISR();             \
+      |                                                          ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(109): note: expanded from macro 'portSET_INTERRUPT_MASK_FROM_ISR'
+  109 | #define portSET_INTERRUPT_MASK_FROM_ISR()               ulPortRaiseBASEPRI()
+      |                                                         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(178): note: 'vPortRaiseBASEPRI' declared here
+  178 | static portFORCE_INLINE void vPortRaiseBASEPRI( void )
+      |                              ^
+../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c(834): error: call to undeclared function 'ulPortRaiseBASEPRI'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  834 |                         sbRECEIVE_COMPLETED_FROM_ISR( pxStreamBuffer, pxHigherPriorityTaskWoken );
+      |                         ^
+../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c(77): note: expanded from macro 'sbRECEIVE_COMPLETED_FROM_ISR'
+   77 |                 uxSavedInterruptStatus = ( UBaseType_t ) portSET_INTERRUPT_MASK_FROM_ISR();             \
+      |                                                          ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(109): note: expanded from macro 'portSET_INTERRUPT_MASK_FROM_ISR'
+  109 | #define portSET_INTERRUPT_MASK_FROM_ISR()               ulPortRaiseBASEPRI()
+      |                                                         ^
+../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c(968): error: call to undeclared function 'ulPortRaiseBASEPRI'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  968 |         uxSavedInterruptStatus = ( UBaseType_t ) portSET_INTERRUPT_MASK_FROM_ISR();
+      |                                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(109): note: expanded from macro 'portSET_INTERRUPT_MASK_FROM_ISR'
+  109 | #define portSET_INTERRUPT_MASK_FROM_ISR()               ulPortRaiseBASEPRI()
+      |                                                         ^
+../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c(998): error: call to undeclared function 'ulPortRaiseBASEPRI'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  998 |         uxSavedInterruptStatus = ( UBaseType_t ) portSET_INTERRUPT_MASK_FROM_ISR();
+      |                                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(109): note: expanded from macro 'portSET_INTERRUPT_MASK_FROM_ISR'
+  109 | #define portSET_INTERRUPT_MASK_FROM_ISR()               ulPortRaiseBASEPRI()
+      |                                                         ^
+14 errors generated.
+compiling stream_buffer.c...
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c(57): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h(56): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(62): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h(52): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(167): error: unknown type name '__forceinline'
+  167 | static portFORCE_INLINE void vPortSetBASEPRI( uint32_t ulBASEPRI )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(170): error: expected 'volatile', 'inline', 'goto', or '('
+  170 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(178): error: unknown type name '__forceinline'
+  178 | static portFORCE_INLINE void vPortRaiseBASEPRI( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(183): error: expected 'volatile', 'inline', 'goto', or '('
+  183 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(193): error: unknown type name '__forceinline'
+  193 | static portFORCE_INLINE void vPortClearBASEPRIFromISR( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(196): error: expected 'volatile', 'inline', 'goto', or '('
+  196 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(205): error: unknown type name '__forceinline'
+  205 | static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(205): error: expected ';' after top level declarator
+  205 | static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+      |                                 ^
+      |                                 ;
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(223): error: unknown type name '__forceinline'
+  223 | static portFORCE_INLINE BaseType_t xPortIsInsideInterrupt( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(223): error: expected ';' after top level declarator
+  223 | static portFORCE_INLINE BaseType_t xPortIsInsideInterrupt( void )
+      |                                   ^
+      |                                   ;
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c(272): error: call to undeclared function '__dsb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  272 |   taskYIELD();
+      |   ^
+../Middlewares/Third_Party/FreeRTOS/Source/include\task.h(164): note: expanded from macro 'taskYIELD'
+  164 | #define taskYIELD()                                     portYIELD()
+      |                                                         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(90): note: expanded from macro 'portYIELD'
+   90 |         __dsb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c(272): error: call to undeclared function '__isb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+../Middlewares/Third_Party/FreeRTOS/Source/include\task.h(164): note: expanded from macro 'taskYIELD'
+  164 | #define taskYIELD()                                     portYIELD()
+      |                                                         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(91): note: expanded from macro 'portYIELD'
+   91 |         __isb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c(513): error: call to undeclared function '__dsb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  513 |     portYIELD_FROM_ISR( xHigherPriorityTaskWoken );
+      |     ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(98): note: expanded from macro 'portYIELD_FROM_ISR'
+   98 | #define portYIELD_FROM_ISR( x ) portEND_SWITCHING_ISR( x )
+      |                                 ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(97): note: expanded from macro 'portEND_SWITCHING_ISR'
+   97 | #define portEND_SWITCHING_ISR( xSwitchRequired ) if( xSwitchRequired != pdFALSE ) portYIELD()
+      |                                                                                   ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(90): note: expanded from macro 'portYIELD'
+   90 |         __dsb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c(513): error: call to undeclared function '__isb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(98): note: expanded from macro 'portYIELD_FROM_ISR'
+   98 | #define portYIELD_FROM_ISR( x ) portEND_SWITCHING_ISR( x )
+      |                                 ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(97): note: expanded from macro 'portEND_SWITCHING_ISR'
+   97 | #define portEND_SWITCHING_ISR( xSwitchRequired ) if( xSwitchRequired != pdFALSE ) portYIELD()
+      |                                                                                   ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(91): note: expanded from macro 'portYIELD'
+   91 |         __isb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c(651): error: call to undeclared function '__dsb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  651 |         portEND_SWITCHING_ISR(taskWoken);
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(97): note: expanded from macro 'portEND_SWITCHING_ISR'
+   97 | #define portEND_SWITCHING_ISR( xSwitchRequired ) if( xSwitchRequired != pdFALSE ) portYIELD()
+      |                                                                                   ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(90): note: expanded from macro 'portYIELD'
+   90 |         __dsb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c(651): error: call to undeclared function '__isb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(97): note: expanded from macro 'portEND_SWITCHING_ISR'
+   97 | #define portEND_SWITCHING_ISR( xSwitchRequired ) if( xSwitchRequired != pdFALSE ) portYIELD()
+      |                                                                                   ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(91): note: expanded from macro 'portYIELD'
+   91 |         __isb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c(675): error: call to undeclared function '__dsb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  675 |     portEND_SWITCHING_ISR(taskWoken);
+      |     ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(97): note: expanded from macro 'portEND_SWITCHING_ISR'
+   97 | #define portEND_SWITCHING_ISR( xSwitchRequired ) if( xSwitchRequired != pdFALSE ) portYIELD()
+      |                                                                                   ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(90): note: expanded from macro 'portYIELD'
+   90 |         __dsb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c(675): error: call to undeclared function '__isb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(97): note: expanded from macro 'portEND_SWITCHING_ISR'
+   97 | #define portEND_SWITCHING_ISR( xSwitchRequired ) if( xSwitchRequired != pdFALSE ) portYIELD()
+      |                                                                                   ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(91): note: expanded from macro 'portYIELD'
+   91 |         __isb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c(804): error: call to undeclared function '__dsb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  804 |         portEND_SWITCHING_ISR(taskWoken);
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(97): note: expanded from macro 'portEND_SWITCHING_ISR'
+   97 | #define portEND_SWITCHING_ISR( xSwitchRequired ) if( xSwitchRequired != pdFALSE ) portYIELD()
+      |                                                                                   ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(90): note: expanded from macro 'portYIELD'
+   90 |         __dsb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling cmsis_os.c...
+../Middlewares/Third_Party/FreeRTOS/Source/tasks.c(38): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(62): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h(52): warning: In file included from...
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(167): error: unknown type name '__forceinline'
+  167 | static portFORCE_INLINE void vPortSetBASEPRI( uint32_t ulBASEPRI )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(170): error: expected 'volatile', 'inline', 'goto', or '('
+  170 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(178): error: unknown type name '__forceinline'
+  178 | static portFORCE_INLINE void vPortRaiseBASEPRI( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(183): error: expected 'volatile', 'inline', 'goto', or '('
+  183 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(193): error: unknown type name '__forceinline'
+  193 | static portFORCE_INLINE void vPortClearBASEPRIFromISR( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(196): error: expected 'volatile', 'inline', 'goto', or '('
+  196 |         {
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(205): error: unknown type name '__forceinline'
+  205 | static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(205): error: expected ';' after top level declarator
+  205 | static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+      |                                 ^
+      |                                 ;
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(223): error: unknown type name '__forceinline'
+  223 | static portFORCE_INLINE BaseType_t xPortIsInsideInterrupt( void )
+      |        ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(162): note: expanded from macro 'portFORCE_INLINE'
+  162 |         #define portFORCE_INLINE __forceinline
+      |                                  ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(223): error: expected ';' after top level declarator
+  223 | static portFORCE_INLINE BaseType_t xPortIsInsideInterrupt( void )
+      |                                   ^
+      |                                   ;
+../Middlewares/Third_Party/FreeRTOS/Source/tasks.c(1090): error: call to undeclared function '__dsb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+ 1090 |                         taskYIELD_IF_USING_PREEMPTION();
+      |                         ^
+../Middlewares/Third_Party/FreeRTOS/Source/tasks.c(64): note: expanded from macro 'taskYIELD_IF_USING_PREEMPTION'
+   64 |         #define taskYIELD_IF_USING_PREEMPTION() portYIELD_WITHIN_API()
+      |                                                 ^
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(722): note: expanded from macro 'portYIELD_WITHIN_API'
+  722 |         #define portYIELD_WITHIN_API portYIELD
+      |                                      ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(90): note: expanded from macro 'portYIELD'
+   90 |         __dsb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/tasks.c(1090): error: call to undeclared function '__isb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+../Middlewares/Third_Party/FreeRTOS/Source/tasks.c(64): note: expanded from macro 'taskYIELD_IF_USING_PREEMPTION'
+   64 |         #define taskYIELD_IF_USING_PREEMPTION() portYIELD_WITHIN_API()
+      |                                                 ^
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(722): note: expanded from macro 'portYIELD_WITHIN_API'
+  722 |         #define portYIELD_WITHIN_API portYIELD
+      |                                      ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(91): note: expanded from macro 'portYIELD'
+   91 |         __isb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/tasks.c(1184): error: call to undeclared function '__dsb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+ 1184 |                                 portYIELD_WITHIN_API();
+      |                                 ^
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(722): note: expanded from macro 'portYIELD_WITHIN_API'
+  722 |         #define portYIELD_WITHIN_API portYIELD
+      |                                      ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(90): note: expanded from macro 'portYIELD'
+   90 |         __dsb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/tasks.c(1184): error: call to undeclared function '__isb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(722): note: expanded from macro 'portYIELD_WITHIN_API'
+  722 |         #define portYIELD_WITHIN_API portYIELD
+      |                                      ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(91): note: expanded from macro 'portYIELD'
+   91 |         __isb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/tasks.c(1269): error: call to undeclared function '__dsb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+ 1269 |                         portYIELD_WITHIN_API();
+      |                         ^
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(722): note: expanded from macro 'portYIELD_WITHIN_API'
+  722 |         #define portYIELD_WITHIN_API portYIELD
+      |                                      ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(90): note: expanded from macro 'portYIELD'
+   90 |         __dsb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/tasks.c(1269): error: call to undeclared function '__isb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(722): note: expanded from macro 'portYIELD_WITHIN_API'
+  722 |         #define portYIELD_WITHIN_API portYIELD
+      |                                      ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(91): note: expanded from macro 'portYIELD'
+   91 |         __isb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/tasks.c(1314): error: call to undeclared function '__dsb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+ 1314 |                         portYIELD_WITHIN_API();
+      |                         ^
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(722): note: expanded from macro 'portYIELD_WITHIN_API'
+  722 |         #define portYIELD_WITHIN_API portYIELD
+      |                                      ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(90): note: expanded from macro 'portYIELD'
+   90 |         __dsb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/tasks.c(1314): error: call to undeclared function '__isb'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h(722): note: expanded from macro 'portYIELD_WITHIN_API'
+  722 |         #define portYIELD_WITHIN_API portYIELD
+      |                                      ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(91): note: expanded from macro 'portYIELD'
+   91 |         __isb( portSY_FULL_READ_WRITE );                                                                                        \
+      |         ^
+../Middlewares/Third_Party/FreeRTOS/Source/tasks.c(1443): error: call to undeclared function 'ulPortRaiseBASEPRI'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+ 1443 |                 uxSavedInterruptState = portSET_INTERRUPT_MASK_FROM_ISR();
+      |                                         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(109): note: expanded from macro 'portSET_INTERRUPT_MASK_FROM_ISR'
+  109 | #define portSET_INTERRUPT_MASK_FROM_ISR()               ulPortRaiseBASEPRI()
+      |                                                         ^
+../Middlewares/Third_Party/FreeRTOS/Source/tasks.c(1443): note: did you mean 'vPortRaiseBASEPRI'?
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(109): note: expanded from macro 'portSET_INTERRUPT_MASK_FROM_ISR'
+  109 | #define portSET_INTERRUPT_MASK_FROM_ISR()               ulPortRaiseBASEPRI()
+      |                                                         ^
+../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3\portmacro.h(178): note: 'vPortRaiseBASEPRI' declared here
+  178 | static portFORCE_INLINE void vPortRaiseBASEPRI( void )
+      |                              ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling tasks.c...
+compiling stm32f1xx_hal_tim.c...
+"Template_Linux\Template_Linux.axf" - 165 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM::CMSIS@5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.0.pack
+                Keil::STM32F1xx_DFP@2.4.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Template_Linux
+  C:/Program Files/Arm/KeilMDK/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Program Files/Arm/KeilMDK/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@5.6.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Target not created.
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

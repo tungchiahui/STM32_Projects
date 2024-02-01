@@ -1,0 +1,4 @@
+/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N2_F103C8T6_FreeRTOS_GPIO_Test/MDK-ARM/tmp/Template_Linux/TemplateLinux/CMakeFiles/database.dir
+/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N2_F103C8T6_FreeRTOS_GPIO_Test/MDK-ARM/tmp/Template_Linux/TemplateLinux/CMakeFiles/Template_Linux.dir
+/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N2_F103C8T6_FreeRTOS_GPIO_Test/MDK-ARM/tmp/Template_Linux/TemplateLinux/CMakeFiles/edit_cache.dir
+/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N2_F103C8T6_FreeRTOS_GPIO_Test/MDK-ARM/tmp/Template_Linux/TemplateLinux/CMakeFiles/rebuild_cache.dir

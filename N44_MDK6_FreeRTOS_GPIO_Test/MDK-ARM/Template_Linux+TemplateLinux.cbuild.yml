@@ -1,0 +1,268 @@
+build:
+  generated-by: csolution version 2.2.1
+  solution: Template_Linux.csolution.yml
+  project: Template_Linux.cproject.yml
+  context: Template_Linux+TemplateLinux
+  compiler: AC6
+  device: STM32F103C8
+  device-pack: Keil::STM32F1xx_DFP@2.4.1
+  processor:
+    endian: little
+    fpu: off
+    trustzone: non-secure
+    core: Cortex-M3
+  packs:
+    - pack: ARM::CMSIS@6.0.0
+      path: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.0.0
+    - pack: Keil::STM32F1xx_DFP@2.4.1
+      path: ${CMSIS_PACK_ROOT}/Keil/STM32F1xx_DFP/2.4.1
+  optimize: speed
+  debug: on
+  misc:
+    ASM:
+      - -masm=auto
+    C:
+      - -std=c99
+      - -fno-rtti
+      - -funsigned-char
+      - -fshort-enums
+      - -fshort-wchar
+      - -ffunction-sections
+      - -Wno-packed
+      - -Wno-missing-variable-declarations
+      - -Wno-missing-prototypes
+      - -Wno-missing-noreturn
+      - -Wno-sign-conversion
+      - -Wno-nonportable-include-path
+      - -Wno-reserved-id-macro
+      - -Wno-unused-macros
+      - -Wno-documentation-unknown-command
+      - -Wno-documentation
+      - -Wno-license-management
+      - -Wno-parentheses-equality
+    CPP:
+      - -xc++
+      - -std=c++11
+      - -fno-rtti
+      - -funsigned-char
+      - -fshort-enums
+      - -fshort-wchar
+      - -ffunction-sections
+      - -Wno-packed
+      - -Wno-missing-variable-declarations
+      - -Wno-missing-prototypes
+      - -Wno-missing-noreturn
+      - -Wno-sign-conversion
+      - -Wno-nonportable-include-path
+      - -Wno-reserved-id-macro
+      - -Wno-unused-macros
+      - -Wno-documentation-unknown-command
+      - -Wno-documentation
+      - -Wno-license-management
+      - -Wno-parentheses-equality
+    Link:
+      - --map
+      - --load_addr_map_info
+      - --xref
+      - --callgraph
+      - --symbols
+      - --info sizes
+      - --info totals
+      - --info unused
+      - --info veneers
+      - --strict
+      - --summary_stderr
+      - --info summarysizes
+  define:
+    - USE_HAL_DRIVER
+    - STM32F103xB
+    - STM32F10X_MD
+    - _RTE_
+  add-path:
+    - ../Core/Inc
+    - ../Drivers/STM32F1xx_HAL_Driver/Inc
+    - ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy
+    - ../Drivers/CMSIS/Device/ST/STM32F1xx/Include
+    - ../Drivers/CMSIS/Include
+    - ../Middlewares/Third_Party/FreeRTOS/Source/include
+    - ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS
+    - ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3
+    - RTE/_TemplateLinux
+    - ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.0.0/CMSIS/Core/Include
+    - ${CMSIS_PACK_ROOT}/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+  output-dirs:
+    intdir: tmp/Template_Linux/TemplateLinux
+    outdir: out/Template_Linux/TemplateLinux
+    rtedir: RTE
+  output:
+    - type: elf
+      file: Template_Linux.axf
+  components:
+    - component: ARM::CMSIS:CORE@6.0.0
+      condition: ARMv6_7_8-M Device
+      from-pack: ARM::CMSIS@6.0.0
+      selected-by: ARM::CMSIS:CORE
+  linker:
+    script: Template_Linux_TemplateLinux.sct
+  groups:
+    - group: Application/MDK-ARM
+      files:
+        - file: startup_stm32f103xb.s
+          category: sourceAsm
+    - group: Application/User/Core
+      files:
+        - file: ../Core/Src/main.c
+          category: sourceC
+        - file: ../Core/Src/gpio.c
+          category: sourceC
+          misc:
+            CPP:
+              - -xc++
+        - file: ../Core/Src/freertos.c
+          category: sourceC
+          misc:
+            CPP:
+              - -xc++
+        - file: ../Core/Src/stm32f1xx_it.c
+          category: sourceC
+        - file: ../Core/Src/stm32f1xx_hal_msp.c
+          category: sourceC
+        - file: ../Core/Src/stm32f1xx_hal_timebase_tim.c
+          category: sourceC
+          misc:
+            CPP:
+              - -xc++
+    - group: Drivers/STM32F1xx_HAL_Driver
+      files:
+        - file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
+          category: sourceC
+        - file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
+          category: sourceC
+        - file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
+          category: sourceC
+        - file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
+          category: sourceC
+        - file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
+          category: sourceC
+        - file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
+          category: sourceC
+        - file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
+          category: sourceC
+        - file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
+          category: sourceC
+        - file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
+          category: sourceC
+        - file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
+          category: sourceC
+        - file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
+          category: sourceC
+        - file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
+          category: sourceC
+        - file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
+          category: sourceC
+    - group: Drivers/CMSIS
+      files:
+        - file: ../Core/Src/system_stm32f1xx.c
+          category: sourceC
+    - group: Middlewares/FreeRTOS
+      misc:
+        C:
+          - -Wno-packed
+          - -Wno-missing-variable-declarations
+          - -Wno-missing-prototypes
+          - -Wno-missing-noreturn
+          - -Wno-sign-conversion
+          - -Wno-nonportable-include-path
+          - -Wno-reserved-id-macro
+          - -Wno-unused-macros
+          - -Wno-documentation-unknown-command
+          - -Wno-documentation
+          - -Wno-license-management
+          - -Wno-parentheses-equality
+          - -Wno-covered-switch-default
+          - -Wno-unreachable-code-break
+        CPP:
+          - -xc++
+          - -Wno-packed
+          - -Wno-missing-variable-declarations
+          - -Wno-missing-prototypes
+          - -Wno-missing-noreturn
+          - -Wno-sign-conversion
+          - -Wno-nonportable-include-path
+          - -Wno-reserved-id-macro
+          - -Wno-unused-macros
+          - -Wno-documentation-unknown-command
+          - -Wno-documentation
+          - -Wno-license-management
+          - -Wno-parentheses-equality
+          - -Wno-covered-switch-default
+          - -Wno-unreachable-code-break
+      files:
+        - file: .
+          category: other
+          misc:
+            CPP:
+              - -xc++
+        - file: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+          category: sourceC
+          misc:
+            CPP:
+              - -xc++
+        - file: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+          category: sourceC
+          misc:
+            CPP:
+              - -xc++
+        - file: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+          category: sourceC
+          misc:
+            CPP:
+              - -xc++
+        - file: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
+          category: sourceC
+          misc:
+            CPP:
+              - -xc++
+        - file: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
+          category: sourceC
+          misc:
+            CPP:
+              - -xc++
+        - file: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+          category: sourceC
+          misc:
+            CPP:
+              - -xc++
+        - file: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
+          category: sourceC
+          misc:
+            CPP:
+              - -xc++
+        - file: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
+          category: sourceC
+          misc:
+            CPP:
+              - -xc++
+        - file: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+          category: sourceC
+          misc:
+            CPP:
+              - -xc++
+        - file: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.c
+          category: sourceC
+          misc:
+            CPP:
+              - -xc++
+  constructed-files:
+    - file: RTE/_TemplateLinux/RTE_Components.h
+      category: header
+  licenses:
+    - license: <unknown>
+      license-agreement: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.0.0/LICENSE
+      packs:
+        - pack: ARM::CMSIS@6.0.0
+      components:
+        - component: ARM::CMSIS:CORE@6.0.0
+    - license: <unknown>
+      packs:
+        - pack: Keil::STM32F1xx_DFP@2.4.1

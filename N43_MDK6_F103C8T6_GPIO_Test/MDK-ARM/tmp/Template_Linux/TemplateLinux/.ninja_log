@@ -1,0 +1,27 @@
+# ninja log v5
+155	235	1706683197348475200	CMakeFiles/Template_Linux.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N1_F103C8T6_GPIO_Test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o	f194bc465df3c9c2
+7	217	1706683197329568200	CMakeFiles/Template_Linux.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N1_F103C8T6_GPIO_Test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o	63467e05eb9b62b
+8	171	1706683197270544300	CMakeFiles/Template_Linux.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N1_F103C8T6_GPIO_Test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o	4c32a8144303f959
+167	209	1706683197320685500	CMakeFiles/Template_Linux.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N1_F103C8T6_GPIO_Test/bsp/boards/Src/gpio_test.o	f1dedde595bc216c
+0	5	0	CMakeFiles/database	d2cb226d3cf6d478
+5	173	1706683197281481000	CMakeFiles/Template_Linux.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N1_F103C8T6_GPIO_Test/Core/Src/gpio.o	e897dd85bf8fec5d
+0	5	0	/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N1_F103C8T6_GPIO_Test/MDK-ARM/tmp/Template_Linux/TemplateLinux/CMakeFiles/database	d2cb226d3cf6d478
+170	208	1706683197320380000	CMakeFiles/Template_Linux.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N1_F103C8T6_GPIO_Test/bsp/boards/Src/gpio_demo.o	dc251e3ab3e36995
+8	196	1706683197306313700	CMakeFiles/Template_Linux.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N1_F103C8T6_GPIO_Test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o	4e3bcfbd96f4f349
+7	185	1706683197294463000	CMakeFiles/Template_Linux.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N1_F103C8T6_GPIO_Test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o	dada28b9bedc11e0
+7	213	1706683197325409600	CMakeFiles/Template_Linux.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N1_F103C8T6_GPIO_Test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o	d9fcaad5d8c6cde3
+71	206	1706683197318386200	CMakeFiles/Template_Linux.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N1_F103C8T6_GPIO_Test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o	5c9a66a80098773c
+6	180	1706683197291202100	CMakeFiles/Template_Linux.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N1_F103C8T6_GPIO_Test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o	5a1b6f2ca1a6e00f
+8	195	1706683197304234800	CMakeFiles/Template_Linux.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N1_F103C8T6_GPIO_Test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o	f209a18a151ff18c
+6	152	1706683197263710000	CMakeFiles/Template_Linux.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N1_F103C8T6_GPIO_Test/Core/Src/system_stm32f1xx.o	44a1444b16a8727b
+5	169	1706683197257464100	CMakeFiles/Template_Linux.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N1_F103C8T6_GPIO_Test/Core/Src/stm32f1xx_hal_msp.o	c01405374a0c4116
+6	175	1706683197277888300	CMakeFiles/Template_Linux.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N1_F103C8T6_GPIO_Test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o	212497ea65a5b62a
+236	289	1706683197402519400	/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N1_F103C8T6_GPIO_Test/MDK-ARM/out/Template_Linux/TemplateLinux/Template_Linux.axf	dfd04873b5d7acb2
+4	68	1706683197181055900	CMakeFiles/Template_Linux.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N1_F103C8T6_GPIO_Test/MDK-ARM/startup_stm32f103xb.o	ddc9acd5c0b46ae6
+6	161	1706683197260171400	CMakeFiles/Template_Linux.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N1_F103C8T6_GPIO_Test/Core/Src/stm32f1xx_it.o	82e5e7201f441409
+164	236	1706683197348481100	CMakeFiles/Template_Linux.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N1_F103C8T6_GPIO_Test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o	d06c24d9eb2b64f3
+5	165	1706683197273381000	CMakeFiles/Template_Linux.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N1_F103C8T6_GPIO_Test/Core/Src/main.o	c2a471c1d411092d
+9	227	1706683197339137900	CMakeFiles/Template_Linux.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N1_F103C8T6_GPIO_Test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o	1c7ad48b7933eaa0
+9	177	1706683197282953600	CMakeFiles/Template_Linux.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N1_F103C8T6_GPIO_Test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o	2d19d1e9501ce8d5
+0	8	0	CMakeFiles/database	d2cb226d3cf6d478
+0	8	0	/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N1_F103C8T6_GPIO_Test/MDK-ARM/tmp/Template_Linux/TemplateLinux/CMakeFiles/database	d2cb226d3cf6d478
