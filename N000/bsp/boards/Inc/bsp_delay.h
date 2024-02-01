@@ -1,22 +1,41 @@
-#ifndef BSP_DELAY_H
-#define BSP_DELAY_H
+#ifndef __BSP_DELAY_H_
+#define __BSP_DELAY_H_
 
 #ifdef __cplusplus
- extern "C" {
+extern "C" 
+{
 #endif
 
+#include "startup_main.h"
 
-#include "struct_typedef.h"
+class BSP_Delay
+{
+	public:
+		class F1
+		{
+			public:
+				void Init(uint16_t sysclk);
+				void us(uint32_t nus);
+				void ms(uint16_t nms);
+		}f1;
+		class F4
+		{
+			public:
+				void Init(uint16_t sysclk);
+				void us(uint32_t nus);
+				void ms(uint16_t nms);
+		}f4;
+		class FreeRTOS
+		{
+			public:
+				void Init(void);
+		}freertos;
+};
 
-void Delay_Init(uint16_t sysclk);
-void delay_us(uint32_t nus);
-void delay_ms(uint16_t nms);
-
+extern BSP_Delay bsp_delay;
 
 #ifdef __cplusplus
 }
 #endif
 
-
 #endif
-
