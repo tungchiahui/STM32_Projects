@@ -1,6 +1,10 @@
 #include "bsp_delay.h"
 #include "main.h"
 
+#if isRTOS == 1
+    #include "cmsis_os.h"
+#endif
+
 static uint32_t g_fac_us = 0;       /* us—” ±±∂≥À ˝ */
 
 BSP_Delay bsp_delay;
