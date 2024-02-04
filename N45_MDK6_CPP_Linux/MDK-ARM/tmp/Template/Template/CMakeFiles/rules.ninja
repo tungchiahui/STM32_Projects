@@ -45,7 +45,7 @@ rule CXX_COMPILER__Template_
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Template_
-  command = $PRE_LINK && /home/tungchiahui/.vcpkg/artifacts/fd3d78d7/compilers.arm.armclang/6.21.0/bin/armlink --cpu=Cortex-M3 --scatter="/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP/MDK-ARM/Template_Template.sct"  --map --load_addr_map_info --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers --strict --summary_stderr --info summarysizes --debug    $LINK_FLAGS $LINK_PATH $LINK_LIBRARIES $in -o $TARGET_FILE  --list=$TARGET_FILE.map && $POST_BUILD
+  command = $PRE_LINK && /home/tungchiahui/.vcpkg/artifacts/fd3d78d7/compilers.arm.armclang/6.21.0/bin/armlink --cpu=Cortex-M3 --scatter="/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP_Linux/MDK-ARM/Template_Template.sct"  --map --load_addr_map_info --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers --strict --summary_stderr --info summarysizes --debug    $LINK_FLAGS $LINK_PATH $LINK_LIBRARIES $in -o $TARGET_FILE  --list=$TARGET_FILE.map && $POST_BUILD
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -62,7 +62,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /home/tungchiahui/.vcpkg/artifacts/vcpkg-ce-default/tools.kitware.cmake/3.25.2/bin/cmake --regenerate-during-build -S/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP/MDK-ARM/tmp/Template/Template -B/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP/MDK-ARM/tmp/Template/Template
+  command = /home/tungchiahui/.vcpkg/artifacts/vcpkg-ce-default/tools.kitware.cmake/3.25.2/bin/cmake --regenerate-during-build -S/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP_Linux/MDK-ARM/tmp/Template/Template -B/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP_Linux/MDK-ARM/tmp/Template/Template
   description = Re-running CMake...
   generator = 1
 

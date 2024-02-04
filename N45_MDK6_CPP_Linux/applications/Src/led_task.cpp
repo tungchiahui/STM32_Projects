@@ -11,10 +11,10 @@ void led_task(void const * argument)
 	for(;;)
 	{
 		static int a = 5;
-		bsp_led.LED_Toggle();  //实例化后调用翻转电平函数
+		bsp_led.LED_Toggle();  //瀹炰緥鍖栧悗璋冪敤缈昏浆鐢靛钩鍑芥暟
 		osDelay(500);
 		a++;
-//		BSP_LED::LED_Toggle();  //或者直接不实例化，直接把类当成命名空间使用
+//		BSP_LED::LED_Toggle();  //鎴栬�呯洿鎺ヤ笉瀹炰緥鍖栵紝鐩存帴鎶婄被褰撴垚鍛藉悕绌洪棿浣跨敤
 	}
 }
 

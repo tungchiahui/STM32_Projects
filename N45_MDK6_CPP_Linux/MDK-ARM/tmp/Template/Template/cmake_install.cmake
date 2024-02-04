@@ -1,4 +1,4 @@
-# Install script for directory: /media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP/MDK-ARM/tmp/Template/Template
+# Install script for directory: /media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP_Linux/MDK-ARM/tmp/Template/Template
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP/MDK-ARM/tmp/Template/Template/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP_Linux/MDK-ARM/tmp/Template/Template/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
