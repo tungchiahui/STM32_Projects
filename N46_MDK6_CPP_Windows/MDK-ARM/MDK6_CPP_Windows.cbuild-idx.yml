@@ -1,0 +1,9 @@
+build-idx:
+  generated-by: csolution version 2.2.1
+  csolution: MDK6_CPP_Windows.csolution.yml
+  cprojects:
+    - cproject: MDK6_CPP_Windows.cproject.yml
+  cbuilds:
+    - cbuild: MDK6_CPP_Windows+MDK6CPPWindows.cbuild.yml
+      project: MDK6_CPP_Windows
+      configuration: +MDK6CPPWindows

@@ -1,0 +1,4 @@
+C:/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N46_MDK6_CPP_Windows/MDK-ARM/tmp/MDK6_CPP_Windows/MDK6CPPWindows/CMakeFiles/database.dir
+C:/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N46_MDK6_CPP_Windows/MDK-ARM/tmp/MDK6_CPP_Windows/MDK6CPPWindows/CMakeFiles/MDK6_CPP_Windows.dir
+C:/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N46_MDK6_CPP_Windows/MDK-ARM/tmp/MDK6_CPP_Windows/MDK6CPPWindows/CMakeFiles/edit_cache.dir
+C:/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N46_MDK6_CPP_Windows/MDK-ARM/tmp/MDK6_CPP_Windows/MDK6CPPWindows/CMakeFiles/rebuild_cache.dir
