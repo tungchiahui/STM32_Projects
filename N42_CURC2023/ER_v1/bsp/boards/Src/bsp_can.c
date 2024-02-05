@@ -7,9 +7,12 @@ extern CAN_HandleTypeDef hcan2;
 
 void CAN_Start(CAN_HandleTypeDef *hcan)
 {
-	HAL_CAN_Start(hcan);
+	if(HAL_CAN_Start(hcan) != HAL_OK)
+	{
+		Error_Handler();
+	}
 
-	if (HAL_CAN_ActivateNotification(hcan, CAN_IT_RX_FIFO0_MSG_PENDING) != HAL_OK)
+	if(HAL_CAN_ActivateNotification(hcan,CAN_IT_RX_FIFO0_MSG_PENDING) != HAL_OK)
   {
     Error_Handler();
 	}
@@ -29,7 +32,10 @@ void CAN1_Filter_Init(void)
     CAN_Filter_st.FilterMaskIdLow = 0x0000;
     CAN_Filter_st.FilterBank = 0;
     CAN_Filter_st.FilterFIFOAssignment = CAN_RX_FIFO0;
-	  HAL_CAN_ConfigFilter(&hcan1, &CAN_Filter_st);        //ÂË²¨Æ÷³õÊ¼»¯
+	  if(HAL_CAN_ConfigFilter(&hcan1, &CAN_Filter_st)!=HAL_OK)       //ÂË²¨Æ÷³õÊ¼»¯
+		{
+			Error_Handler();
+		}
 }
 
 
@@ -46,7 +52,10 @@ void CAN2_Filter_Init(void)
     CAN_Filter_st.FilterBank = 14;
 		CAN_Filter_st.SlaveStartFilterBank = 14;
     CAN_Filter_st.FilterFIFOAssignment = CAN_RX_FIFO0;
-	  HAL_CAN_ConfigFilter(&hcan2, &CAN_Filter_st);        //ÂË²¨Æ÷³õÊ¼»¯
+	  if(HAL_CAN_ConfigFilter(&hcan2, &CAN_Filter_st)!=HAL_OK)        //ÂË²¨Æ÷³õÊ¼»¯
+		{
+			Error_Handler();
+		}
 }
 
 

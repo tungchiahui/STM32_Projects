@@ -1,9 +1,9 @@
 rtos_gp_helm_wheel_chassis/stream_buffer.o: \
   ..\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c \
-  D:\Program\ Files\ARM\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
-  D:\Program\ Files\ARM\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  C:\Program\ Files\Arm\KeilMDK\Keil_v5\ARM\ARMCLANG\include\stdint.h \
+  C:\Program\ Files\Arm\KeilMDK\Keil_v5\ARM\ARMCLANG\include\string.h \
   ..\Middlewares\Third_Party\FreeRTOS\Source\include\FreeRTOS.h \
-  D:\Program\ Files\ARM\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  C:\Program\ Files\Arm\KeilMDK\Keil_v5\ARM\ARMCLANG\include\stddef.h \
   ..\Core\Inc\FreeRTOSConfig.h \
   ..\Middlewares\Third_Party\FreeRTOS\Source\include\projdefs.h \
   ..\Middlewares\Third_Party\FreeRTOS\Source\include\portable.h \

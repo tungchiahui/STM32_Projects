@@ -6,16 +6,16 @@ rtos_gp_helm_wheel_chassis/tim.o: ..\Core\Src\tim.c ..\Core\Inc\tim.h \
   ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h \
   ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h \
   ..\Drivers\CMSIS\Include\core_cm4.h \
-  D:\Program\ Files\ARM\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
-  ..\Drivers\CMSIS\Include\cmsis_version.h \
-  ..\Drivers\CMSIS\Include\cmsis_compiler.h \
-  ..\Drivers\CMSIS\Include\cmsis_armclang.h \
-  D:\Program\ Files\ARM\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
-  D:\Program\ Files\ARM\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
-  ..\Drivers\CMSIS\Include\mpu_armv7.h \
+  C:\Program\ Files\Arm\KeilMDK\Keil_v5\ARM\ARMCLANG\include\stdint.h \
+  C:\UserFolder\XiaomiCloud\Work\Source\STM32_Projects\N42_CURC2023\ER_v1\Drivers\CMSIS\Include\cmsis_version.h \
+  C:\UserFolder\XiaomiCloud\Work\Source\STM32_Projects\N42_CURC2023\ER_v1\Drivers\CMSIS\Include\cmsis_compiler.h \
+  C:\UserFolder\XiaomiCloud\Work\Source\STM32_Projects\N42_CURC2023\ER_v1\Drivers\CMSIS\Include\cmsis_armclang.h \
+  C:\Program\ Files\Arm\KeilMDK\Keil_v5\ARM\ARMCLANG\include\arm_compat.h \
+  C:\Program\ Files\Arm\KeilMDK\Keil_v5\ARM\ARMCLANG\include\arm_acle.h \
+  C:\UserFolder\XiaomiCloud\Work\Source\STM32_Projects\N42_CURC2023\ER_v1\Drivers\CMSIS\Include\mpu_armv7.h \
   ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h \
-  D:\Program\ Files\ARM\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  C:\Program\ Files\Arm\KeilMDK\Keil_v5\ARM\ARMCLANG\include\stddef.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h \
@@ -54,5 +54,5 @@ rtos_gp_helm_wheel_chassis/tim.o: ..\Core\Src\tim.c ..\Core\Inc\tim.h \
   ..\applications\Inc\pid_user.h ..\bsp\boards\Inc\bsp_rc.h \
   ..\applications\Inc\remote_control.h ..\applications\Inc\chassis_api.h \
   ..\applications\Inc\chassis_task.h \
-  D:\Program\ Files\ARM\Keil_v5\ARM\ARMCLANG\Bin\..\include\math.h \
-  D:\Program\ Files\ARM\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h
+  C:\Program\ Files\Arm\KeilMDK\Keil_v5\ARM\ARMCLANG\include\math.h \
+  C:\Program\ Files\Arm\KeilMDK\Keil_v5\ARM\ARMCLANG\include\string.h
