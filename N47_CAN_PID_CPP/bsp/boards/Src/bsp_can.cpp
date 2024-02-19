@@ -1,10 +1,10 @@
 #include "bsp_can.h"
 
 /**
- * @brief       CANÍ¨ĞÅ¿ªÆôº¯Êı
- * @param       hcan£ºCANÍ¨ĞÅ¾ä±ú
+ * @brief       CANé€šä¿¡å¼€å¯å‡½æ•°
+ * @param       hcanï¼šCANé€šä¿¡å¥æŸ„
  * @retval      void
- * @note        ½¨ÒéÏÈ³õÊ¼»¯CANÍ¨ĞÅÂË²¨º¯Êı£¬ÔÙ¿ªÆôCANÍ¨ĞÅ
+ * @note        å»ºè®®å…ˆåˆå§‹åŒ–CANé€šä¿¡æ»¤æ³¢å‡½æ•°ï¼Œå†å¼€å¯CANé€šä¿¡
  */
 void CAN_BUS::BSP::CAN_Start(CAN_HandleTypeDef *hcan)
 {
@@ -20,10 +20,10 @@ void CAN_BUS::BSP::CAN_Start(CAN_HandleTypeDef *hcan)
 }
 
 /**
- * @brief       CANÍ¨ĞÅÂË²¨º¯Êı
- * @param       hcan£ºCANÍ¨ĞÅ¾ä±ú
+ * @brief       CANé€šä¿¡æ»¤æ³¢å‡½æ•°
+ * @param       hcanï¼šCANé€šä¿¡å¥æŸ„
  * @retval      void
- * @note        ¿ªÆôCANÍ¨ĞÅ½ÓÊÕÊ±£¬±ØĞë³õÊ¼»¯¸Ãº¯Êı£¬½¨Òé½«¸Ãº¯ÊıÔÚCANÍ¨ĞÅ¿ªÆôÇ°¾Í±»³õÊ¼»¯
+ * @note        å¼€å¯CANé€šä¿¡æ¥æ”¶æ—¶ï¼Œå¿…é¡»åˆå§‹åŒ–è¯¥å‡½æ•°ï¼Œå»ºè®®å°†è¯¥å‡½æ•°åœ¨CANé€šä¿¡å¼€å¯å‰å°±è¢«åˆå§‹åŒ–
  */
 void CAN_BUS::BSP::Filter_Init(CAN_HandleTypeDef *hcan)
 {
@@ -39,7 +39,7 @@ void CAN_BUS::BSP::Filter_Init(CAN_HandleTypeDef *hcan)
     CAN_Filter_st.FilterMaskIdLow = 0x0000;
     CAN_Filter_st.FilterBank = 0;
     CAN_Filter_st.FilterFIFOAssignment = CAN_RX_FIFO0;
-	  if(HAL_CAN_ConfigFilter(hcan, &CAN_Filter_st)!=HAL_OK)       //ÂË²¨Æ÷³õÊ¼»¯
+	  if(HAL_CAN_ConfigFilter(hcan, &CAN_Filter_st)!=HAL_OK)       //æ»¤æ³¢å™¨åˆå§‹åŒ–
 		{
 			Error_Handler();
 		}
@@ -58,7 +58,7 @@ void CAN_BUS::BSP::Filter_Init(CAN_HandleTypeDef *hcan)
     CAN_Filter_st.FilterBank = 14;
 		CAN_Filter_st.SlaveStartFilterBank = 14;
     CAN_Filter_st.FilterFIFOAssignment = CAN_RX_FIFO0;
-	  if(HAL_CAN_ConfigFilter(hcan, &CAN_Filter_st)!=HAL_OK)        //ÂË²¨Æ÷³õÊ¼»¯
+	  if(HAL_CAN_ConfigFilter(hcan, &CAN_Filter_st)!=HAL_OK)        //æ»¤æ³¢å™¨åˆå§‹åŒ–
 		{
 			Error_Handler();
 		}

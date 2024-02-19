@@ -7,7 +7,7 @@
 0	66	1707052465091560300	CMakeFiles/Template.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP_Linux/Core/Src/stm32f1xx_hal_msp.o	ab0967892341a192
 0	87	1707052465111559600	CMakeFiles/Template.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP_Linux/Core/Src/freertos.o	f9b1344de0436412
 0	99	1707052465123559200	CMakeFiles/Template.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP_Linux/Core/Src/main.o	d7d49686425c7305
-0	2	0	CMakeFiles/database	e480e6e365f5f3bc
+3	81	0	CMakeFiles/database	e480e6e365f5f3bc
 1	147	1707052465171557700	CMakeFiles/Template.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP_Linux/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o	593ef1a070560262
 1	89	1707052465115559500	CMakeFiles/Template.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP_Linux/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o	92d4c2284c002425
 71	292	1707052465315553000	CMakeFiles/Template.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP_Linux/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.o	6c083aa992dea244
@@ -28,7 +28,7 @@
 1	118	1707052465143558600	CMakeFiles/Template.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP_Linux/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o	8af897bfcd6c4474
 0	70	1707052465091560300	CMakeFiles/Template.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP_Linux/Core/Src/gpio.o	392273cc849d9851
 100	164	1707052465191557000	CMakeFiles/Template.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP_Linux/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.o	1652958f5ecca3af
-0	2	0	/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP_Linux/MDK-ARM/tmp/Template/Template/CMakeFiles/database	e480e6e365f5f3bc
+3	81	0	/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP_Linux/MDK-ARM/tmp/Template/Template/CMakeFiles/database	e480e6e365f5f3bc
 1	112	1707052465135558800	CMakeFiles/Template.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP_Linux/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o	ddfc3a8f347a7c3f
 112	342	1707052465367551300	CMakeFiles/Template.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP_Linux/Middlewares/Third_Party/FreeRTOS/Source/queue.o	501d4242580a69e8
 118	251	1707052465275554300	CMakeFiles/Template.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP_Linux/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.o	fbf8b5d69ca4850e
@@ -36,3 +36,5 @@
 72	128	1707052465155558200	CMakeFiles/Template.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP_Linux/Middlewares/Third_Party/FreeRTOS/Source/croutine.o	bc20be589d0c1dac
 563	619	1707052465643542400	/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP_Linux/MDK-ARM/out/Template/Template/Template.axf	b09143b3fae5dc67
 0	70	1707052465095560100	CMakeFiles/Template.dir/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP_Linux/Core/Src/stm32f1xx_it.o	d51b51207e4f30fb
+2	49	0	CMakeFiles/database	e480e6e365f5f3bc
+2	49	0	/media/tungchiahui/6A0A73946EE82411/UserFolder/XiaomiCloud/Work/Source/STM32_Projects/N45_MDK6_CPP_Linux/MDK-ARM/tmp/Template/Template/CMakeFiles/database	e480e6e365f5f3bc

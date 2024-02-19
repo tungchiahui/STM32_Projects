@@ -24,6 +24,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "startup_main.h"
+#include <stm32f1xx_hal_rcc.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
