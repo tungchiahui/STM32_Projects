@@ -91,11 +91,7 @@ int main(void)
   MX_CAN2_Init();
   MX_TIM7_Init();
   /* USER CODE BEGIN 2 */
-<<<<<<< HEAD
   startup_main();
-=======
-	startup_main();
->>>>>>> 67b6fdc (update)
   /* USER CODE END 2 */
 
   /* Infinite loop */
