@@ -33,7 +33,7 @@ void Remote_Control_Chassis_Set_Mode(void)
     {
         actChassis = CHASSIS_NORMAL;
     }
-    else if (rc_ctrl.rc.s[0] == 3 && rc_ctrl.rc.s[1] == 1) //底盘大陀螺模式   无云台无法实现
+    else if (rc_ctrl.rc.s[0] == 3 && rc_ctrl.rc.s[1] == 1) //底盘大陀螺模式   无世界坐标系暂不实现
     {
         actChassis = CHASSIS_GYROSCOPE;
     }
