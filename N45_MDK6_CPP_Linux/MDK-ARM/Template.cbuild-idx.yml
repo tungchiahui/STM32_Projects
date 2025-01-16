@@ -1,9 +1,0 @@
-build-idx:
-  generated-by: csolution version 2.2.1
-  csolution: Template.csolution.yml
-  cprojects:
-    - cproject: Template.cproject.yml
-  cbuilds:
-    - cbuild: Template+Template.cbuild.yml
-      project: Template
-      configuration: +Template

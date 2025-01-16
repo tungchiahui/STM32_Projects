@@ -1,0 +1,18 @@
+build-idx:
+  generated-by: csolution version 2.7.0
+  csolution: RTOS_MPU6050.csolution.yml
+  tmpdir: tmp
+  cprojects:
+    - cproject: RTOS_MPU6050.cproject.yml
+  cbuilds:
+    - cbuild: RTOS_MPU6050+RTOSMPU6050.cbuild.yml
+      project: RTOS_MPU6050
+      configuration: +RTOSMPU6050
+      messages:
+        info:
+          - RTOS_MPU6050.cbuild-pack.yml - file is already up-to-date
+          - RTOSMPU6050.cbuild-run.yml - file is already up-to-date
+          - RTOS_MPU6050+RTOSMPU6050.cbuild.yml - file is already up-to-date
+      packs-unused:
+        - pack: ARM::CMSIS-DSP@1.16.2
+        - pack: ARM::CMSIS-NN@7.0.0

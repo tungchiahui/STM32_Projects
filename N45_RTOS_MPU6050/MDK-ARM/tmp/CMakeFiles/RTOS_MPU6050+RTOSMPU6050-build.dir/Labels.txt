@@ -1,0 +1,11 @@
+# Target labels
+ RTOS_MPU6050+RTOSMPU6050
+# Source files and their labels
+C:/Users/tung/UserFolder/XiaomiCloud/Work/Source/ST-Cube-MX/RTOS_MPU6050/MDK-ARM/tmp/CMakeFiles/RTOS_MPU6050+RTOSMPU6050-build
+C:/Users/tung/UserFolder/XiaomiCloud/Work/Source/ST-Cube-MX/RTOS_MPU6050/MDK-ARM/tmp/CMakeFiles/RTOS_MPU6050+RTOSMPU6050-build.rule
+C:/Users/tung/UserFolder/XiaomiCloud/Work/Source/ST-Cube-MX/RTOS_MPU6050/MDK-ARM/tmp/RTOS_MPU6050+RTOSMPU6050/src/RTOS_MPU6050+RTOSMPU6050-stamp/RTOS_MPU6050+RTOSMPU6050-build.rule
+C:/Users/tung/UserFolder/XiaomiCloud/Work/Source/ST-Cube-MX/RTOS_MPU6050/MDK-ARM/tmp/RTOS_MPU6050+RTOSMPU6050/src/RTOS_MPU6050+RTOSMPU6050-stamp/RTOS_MPU6050+RTOSMPU6050-configure.rule
+C:/Users/tung/UserFolder/XiaomiCloud/Work/Source/ST-Cube-MX/RTOS_MPU6050/MDK-ARM/tmp/RTOS_MPU6050+RTOSMPU6050/src/RTOS_MPU6050+RTOSMPU6050-stamp/RTOS_MPU6050+RTOSMPU6050-patch.rule
+C:/Users/tung/UserFolder/XiaomiCloud/Work/Source/ST-Cube-MX/RTOS_MPU6050/MDK-ARM/tmp/RTOS_MPU6050+RTOSMPU6050/src/RTOS_MPU6050+RTOSMPU6050-stamp/RTOS_MPU6050+RTOSMPU6050-update.rule
+C:/Users/tung/UserFolder/XiaomiCloud/Work/Source/ST-Cube-MX/RTOS_MPU6050/MDK-ARM/tmp/RTOS_MPU6050+RTOSMPU6050/src/RTOS_MPU6050+RTOSMPU6050-stamp/RTOS_MPU6050+RTOSMPU6050-download.rule
+C:/Users/tung/UserFolder/XiaomiCloud/Work/Source/ST-Cube-MX/RTOS_MPU6050/MDK-ARM/tmp/RTOS_MPU6050+RTOSMPU6050/src/RTOS_MPU6050+RTOSMPU6050-stamp/RTOS_MPU6050+RTOSMPU6050-mkdir.rule

@@ -1,0 +1,40 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/tung/UserFolder/XiaomiCloud/Work/Source/ST-Cube-MX/RTOS_MPU6050/MDK-ARM/tmp/CMakeFiles/RTOS_MPU6050+RTOSMPU6050-executes"
+		},
+		{
+			"file" : "C:/Users/tung/UserFolder/XiaomiCloud/Work/Source/ST-Cube-MX/RTOS_MPU6050/MDK-ARM/tmp/CMakeFiles/RTOS_MPU6050+RTOSMPU6050-executes.rule"
+		},
+		{
+			"file" : "C:/Users/tung/UserFolder/XiaomiCloud/Work/Source/ST-Cube-MX/RTOS_MPU6050/MDK-ARM/tmp/RTOS_MPU6050+RTOSMPU6050/src/RTOS_MPU6050+RTOSMPU6050-stamp/RTOS_MPU6050+RTOSMPU6050-executes.rule"
+		},
+		{
+			"file" : "C:/Users/tung/UserFolder/XiaomiCloud/Work/Source/ST-Cube-MX/RTOS_MPU6050/MDK-ARM/tmp/RTOS_MPU6050+RTOSMPU6050/src/RTOS_MPU6050+RTOSMPU6050-stamp/RTOS_MPU6050+RTOSMPU6050-build.rule"
+		},
+		{
+			"file" : "C:/Users/tung/UserFolder/XiaomiCloud/Work/Source/ST-Cube-MX/RTOS_MPU6050/MDK-ARM/tmp/RTOS_MPU6050+RTOSMPU6050/src/RTOS_MPU6050+RTOSMPU6050-stamp/RTOS_MPU6050+RTOSMPU6050-configure.rule"
+		},
+		{
+			"file" : "C:/Users/tung/UserFolder/XiaomiCloud/Work/Source/ST-Cube-MX/RTOS_MPU6050/MDK-ARM/tmp/RTOS_MPU6050+RTOSMPU6050/src/RTOS_MPU6050+RTOSMPU6050-stamp/RTOS_MPU6050+RTOSMPU6050-patch.rule"
+		},
+		{
+			"file" : "C:/Users/tung/UserFolder/XiaomiCloud/Work/Source/ST-Cube-MX/RTOS_MPU6050/MDK-ARM/tmp/RTOS_MPU6050+RTOSMPU6050/src/RTOS_MPU6050+RTOSMPU6050-stamp/RTOS_MPU6050+RTOSMPU6050-update.rule"
+		},
+		{
+			"file" : "C:/Users/tung/UserFolder/XiaomiCloud/Work/Source/ST-Cube-MX/RTOS_MPU6050/MDK-ARM/tmp/RTOS_MPU6050+RTOSMPU6050/src/RTOS_MPU6050+RTOSMPU6050-stamp/RTOS_MPU6050+RTOSMPU6050-download.rule"
+		},
+		{
+			"file" : "C:/Users/tung/UserFolder/XiaomiCloud/Work/Source/ST-Cube-MX/RTOS_MPU6050/MDK-ARM/tmp/RTOS_MPU6050+RTOSMPU6050/src/RTOS_MPU6050+RTOSMPU6050-stamp/RTOS_MPU6050+RTOSMPU6050-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"RTOS_MPU6050+RTOSMPU6050"
+		],
+		"name" : "RTOS_MPU6050+RTOSMPU6050-executes"
+	}
+}

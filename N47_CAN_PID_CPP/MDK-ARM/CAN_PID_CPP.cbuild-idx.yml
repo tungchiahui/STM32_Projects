@@ -1,9 +1,0 @@
-build-idx:
-  generated-by: csolution version 2.2.1
-  csolution: CAN_PID_CPP.csolution.yml
-  cprojects:
-    - cproject: CAN_PID_CPP.cproject.yml
-  cbuilds:
-    - cbuild: CAN_PID_CPP+CANPIDCPP.cbuild.yml
-      project: CAN_PID_CPP
-      configuration: +CANPIDCPP

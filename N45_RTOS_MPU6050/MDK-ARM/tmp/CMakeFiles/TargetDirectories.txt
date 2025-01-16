@@ -1,0 +1,8 @@
+C:/Users/tung/UserFolder/XiaomiCloud/Work/Source/ST-Cube-MX/RTOS_MPU6050/MDK-ARM/tmp/CMakeFiles/database.dir
+C:/Users/tung/UserFolder/XiaomiCloud/Work/Source/ST-Cube-MX/RTOS_MPU6050/MDK-ARM/tmp/CMakeFiles/RTOS_MPU6050+RTOSMPU6050.dir
+C:/Users/tung/UserFolder/XiaomiCloud/Work/Source/ST-Cube-MX/RTOS_MPU6050/MDK-ARM/tmp/CMakeFiles/RTOS_MPU6050+RTOSMPU6050-build.dir
+C:/Users/tung/UserFolder/XiaomiCloud/Work/Source/ST-Cube-MX/RTOS_MPU6050/MDK-ARM/tmp/CMakeFiles/RTOS_MPU6050+RTOSMPU6050-configure.dir
+C:/Users/tung/UserFolder/XiaomiCloud/Work/Source/ST-Cube-MX/RTOS_MPU6050/MDK-ARM/tmp/CMakeFiles/RTOS_MPU6050+RTOSMPU6050-executes.dir
+C:/Users/tung/UserFolder/XiaomiCloud/Work/Source/ST-Cube-MX/RTOS_MPU6050/MDK-ARM/tmp/CMakeFiles/RTOS_MPU6050+RTOSMPU6050-database.dir
+C:/Users/tung/UserFolder/XiaomiCloud/Work/Source/ST-Cube-MX/RTOS_MPU6050/MDK-ARM/tmp/CMakeFiles/edit_cache.dir
+C:/Users/tung/UserFolder/XiaomiCloud/Work/Source/ST-Cube-MX/RTOS_MPU6050/MDK-ARM/tmp/CMakeFiles/rebuild_cache.dir

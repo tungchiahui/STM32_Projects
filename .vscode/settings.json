@@ -1,0 +1,5 @@
+{
+    "clangd.arguments": [
+        "--compile-commands-dir=c:\\Users\\tung\\UserFolder\\XiaomiCloud\\Work\\Source\\STM32_Projects\\N45_RTOS_MPU6050\\MDK-ARM\\out\\RTOS_MPU6050\\RTOSMPU6050"
+    ]
+}
