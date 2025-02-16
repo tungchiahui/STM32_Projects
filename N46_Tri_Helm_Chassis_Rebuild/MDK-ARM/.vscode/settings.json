@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "chassis_api.h": "c",
+        "can_receive.h": "c",
+        "helm_wheel.h": "c",
+        "remote_control.h": "c",
+        "math.h": "c",
+        "main.h": "c",
+        "bsp_can.h": "c",
+        "bsp_rc.h": "c",
+        "task_date_pack.h": "c",
+        "stdbool.h": "c",
+        "string": "c",
+        "task_data_pack.h": "c",
+        "pid_user.h": "c"
+    }
+}
