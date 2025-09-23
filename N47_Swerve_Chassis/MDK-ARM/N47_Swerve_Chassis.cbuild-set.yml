@@ -1,4 +1,0 @@
-cbuild-set:
-  generated-by: vscode-cmsis-csolution version 1.50.0
-  contexts:
-    - context: N47_Swerve_Chassis+N47_Swerve_Chassis
